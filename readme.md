@@ -27,3 +27,7 @@ Probabilmente  conviene controllare che il numero di elementi della coda non sia
 Cartella: array_bonus
 Crea due array che hanno un numero di elementi diversi.
 Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
+
+(nella consegna i problemi sono gia stati scomposti)
+
+
