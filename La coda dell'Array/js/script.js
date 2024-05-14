@@ -13,7 +13,7 @@ for( i = 0; i < frutta.length; i ++){
 }
 
 if(ricercaCocomero = true){
-    console.log("cocomero trovato, il cocktail è in arrivo!");
+    console.log("Trovato! Devo solo preparare il cocktail.");
 } else{
-    console.log("Mi dispiace, abbiamo finito il cocomero, le va un altro cocktail?");
+    console.log("Oh no, devo uscire a comprare il cocomero!");
 }
