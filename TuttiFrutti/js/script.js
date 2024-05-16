@@ -4,4 +4,6 @@ const array = [];
 
 for(let i =0; i<elementArray; i++){
     array[i]= Math.floor(Math.random() *100)+1;
+    console.log(array);
 }
+
