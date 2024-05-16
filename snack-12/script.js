@@ -3,15 +3,17 @@
 
 
 function lunghezza (parola1, parola2){
-    if(parola1.lenght === parola2.lenght){
-        console.log(parola1, parola2);
+    if(parola1.length === parola2.length){
+        console.log('parola1', 'parola2');
 
-    } else if (parola1.lenght> parola2.lenght){
-        console.log(parola1);
+    } else if (parola1.length> parola2.length){
+        console.log('parola1');
 
     }else{
-        console.log(parola2);
+        console.log('parola2');
     }
 }
-const parola1 = prompt('inserisci una parola');
-const parola2= prompt('inserisci una parola');
+
+const parolaX = prompt('inserisci una parola');
+const parolaY= prompt('inserisci una parola');
+lunghezza =(parolaX, parolaY);
