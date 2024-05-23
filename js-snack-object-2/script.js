@@ -57,5 +57,15 @@ const personeArray = [
     },
 ];
 
+const personeMaggiorenne = personeArray.map((persone) => {
+    if(persone.età >= 18){
+        return `${persone.nome} ${persone.cognome} può guidare`;
+    } else {
+        return `${persone.nome} ${persone.cognome} non può guidare`;
+    }
+});
+
+console.log(personeMaggiorenne);
+
 
 
