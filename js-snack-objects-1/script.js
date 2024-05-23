@@ -88,3 +88,12 @@ const automobili =[
         alimentazione: 'elettrico',
     }
 ];
+
+const benzinaArray = automobili.filter((auto) => auto.alimentazione === 'benzina');
+const dieselArray = automobili.filter((auto) => auto.alimentazione === 'diesel');
+const altreArray = automobili.filter((auto) => auto.alimentazione !== 'benzina' && auto.alimentazione !== 'diesel');
+
+console.log(benzinaArray);
+console.log(dieselArray);
+console.log(altreArray);
+
