@@ -59,12 +59,38 @@ const zucchine = [
 
 ];
 
+//peso totale
 let pesoTotale = 0;
 for (let i = 0; i < zucchine.length; i++) {
     pesoTotale += zucchine[i].peso;
 };
 console.log(pesoTotale);
 
+//creazione dei due array in base alla misura: utilizzo un ciclo for per controllare ogni zucchina dell'array zucchine e le suddivido con un if: se minori di 8 allora arrayCorte, se maggiori di 8 allora array lunghe.
+
+const zucchinePiuCheOneste = [];
+const zucchineEsagerate = [];
+for (let i = 0; i < zucchine.length; i++) {
+    if (zucchine[i].lunghezza < 8) {
+        zucchinePiuCheOneste.push(zucchine[i]);
+    } else {
+        zucchineEsagerate.push(zucchine[i]);
+    }
+};
+console.log(zucchinePiuCheOneste);
+console.log(zucchineEsagerate);
+
+let pesoGiusto = 0;
+for (let i = 0; i < zucchinePiuCheOneste.length; i++) {
+    pesoGiusto += zucchinePiuCheOneste[i].peso;
+};
+console.log(pesoGiusto);
+
+let pesoEsagerato = 0;
+for (let i = 0; i < zucchineEsagerate.length; i++) {
+    pesoEsagerato += zucchineEsagerate[i].peso;
+};
+console.log(pesoEsagerato);
 
 
 
